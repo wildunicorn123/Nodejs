@@ -9,6 +9,20 @@
 We believe in the power of greenery to uplift spirits and improve well-being. Whether you're a seasoned plant parent or a beginner looking to embark on a new journey, our knowledgeable team is here to guide you. We offer personalized recommendations, care tips, and virtual workshops to help you cultivate your own indoor oasis.
 GreenFlow isn't just a store; it's a symbol of growth, adaptability, and hope. Join us in embracing the beauty of nature as we navigate these unprecedented times together. </p>
 </div>
+<div class="container " style="position:relative;">
+  <section class="row gap-5">
+    <div id="product1" class="col d-flex flex-column align-items-center gap-3 p-4">
+                            <img src="https://i.postimg.cc/dQrNj18s/C12-Abdoelmaaliek-Samaai-2.jpg" class="lol" alt="ab" loading="lazy">
+                            <h2 class="title" >Abdoel-Maaliek</h2>
+                            <p>Co-Founder</p>
+                        </div>
+                        <div id="product3" class="col d-flex flex-column align-items-center gap-3 p-4">
+                            <img src="https://i.postimg.cc/bJQMrNgw/Screenshot-20230505-103824.jpg" class="lol" alt="scre" loading="lazy">
+                            <h2 class="title">Amber-Kaye</h2>
+                            <p>Co-Founder</p>
+                        </div>
+  </section>
+</div>
 </template>
 <style>
 .worrds{
@@ -28,5 +42,14 @@ GreenFlow isn't just a store; it's a symbol of growth, adaptability, and hope. J
     min-width: 100%;
     max-width:100%;
     z-index: 1;
+}
+.col>p{
+  font-family: 'Doulos SIL Compact', sans-serif!important;
+   color:#ffffff;
+}
+.lol{
+  width:200px;
+  height:250px;
+  border-radius:150px;
 }
 </style>
