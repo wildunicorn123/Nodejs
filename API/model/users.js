@@ -1,4 +1,4 @@
-const db = require('../config/db')
+const db = require('../config/db.js')
 const {hash, compare, hashSync} = require('bcrypt')
 const {createToken} = require('../middelware/AuthUser')
 class Users{

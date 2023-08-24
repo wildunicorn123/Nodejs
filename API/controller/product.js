@@ -15,11 +15,11 @@ const showProducts = (req, res) => {
 // Get Single Product 
 // export 
 const showProductById = (req, res) => {
-    getProductById(req.params.id, (err, results) => {
+    getProductById(req.params.id, (err, result) => {
         if (err){
             res.send(err);
         }else{
-            res.json(results);
+            res.json(result);
         }
         res.json({
             status: res.statusCode,
