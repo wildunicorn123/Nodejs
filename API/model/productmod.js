@@ -21,6 +21,7 @@ getProducts = (result) => {
                 result(err, null);
             } else {
                 result(null, results[0]);
+                
             }
         //      res.json({
         //     status: res.statusCode,

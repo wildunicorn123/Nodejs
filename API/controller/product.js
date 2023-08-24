@@ -8,8 +8,12 @@ const showProducts = (req, res) => {
         if (err){
             res.send(err);
         }else{
-            res.json(results);
-        }
+            console.log("Display all products");
+            res.json({
+                status: 200,
+                results
+            })
+         } 
     });
 }
 // Get Single Product 
@@ -19,7 +23,11 @@ const showProductById = (req, res) => {
         if (err){
             res.send(err);
         }else{
-            res.json(result);
+            console.log("Display one product");
+            res.json({
+                status: 200,
+                result
+            })
         }
         // res.json({
         //     status: res.statusCode,
