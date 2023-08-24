@@ -21,10 +21,10 @@ const showProductById = (req, res) => {
         }else{
             res.json(result);
         }
-        res.json({
-            status: res.statusCode,
-            result
-        })
+        // res.json({
+        //     status: res.statusCode,
+        //     result
+        // })
     });
 }
 // Create New Product

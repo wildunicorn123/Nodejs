@@ -22,6 +22,10 @@ getProducts = (result) => {
             } else {
                 result(null, results[0]);
             }
+        //      res.json({
+        //     status: res.statusCode,
+        //     result
+        // })
         });   
     }
       const 
@@ -37,7 +41,7 @@ getProducts = (result) => {
     }
     const
       updateProductById = (data, id, result) => {
-        db.query("UPDATE Products SET prodName = ?, pamount= ? WHERE prodID= ?", [data.prodName, data.amount, id], (err, results) => {             
+        db.query("UPDATE Products SET prodName = ?, amount= ? WHERE prodID= ?", [data.prodName, data.amount, id], (err, results) => {             
             if(err) {
                 console.log(err);
                 result(err, null);
