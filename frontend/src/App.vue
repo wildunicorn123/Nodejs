@@ -21,16 +21,17 @@ export default{
   text-align: center;
   color: #2c3e50;
   background: rgb(0,0,0)!important;
-background: linear-gradient(31deg, rgba(0,0,0,0.9921218487394958) 5%, rgba(115,115,115,1) 100%)!important;
+ background: linear-gradient(31deg, rgba(0,0,0,0.9921218487394958) 5%, rgba(115,115,115,1) 100%)!important;
 }
 
 nav {
   padding: 30px;
   text-align:center!important;
-font-family: 'Doulos SIL Compact', sans-serif!important;
+  font-family: 'Doulos SIL Compact', sans-serif!important;
 }
 .collapse{
-  margin-right:350px;
+    display: flex !important;
+  justify-content: center  !important;
 }
 nav a {
   font-size: 20px!important;
@@ -40,6 +41,7 @@ nav a:hover{
   text-decoration: 5px underline;
   text-decoration-color: #00bf63;
 }
+
 nav a.router-link{
   font-size:80px!important;
   font-family: 'Doulos SIL Compact', sans-serif!important;
@@ -47,6 +49,8 @@ nav a.router-link{
 nav a.router-link-exact-active {
   font-family: 'Doulos SIL Compact', sans-serif!important;
 }
+
+
 footer{
   background-color:transparent!important;
 }
