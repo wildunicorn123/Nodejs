@@ -79,6 +79,39 @@
                 </section>
     </div>
   </div>
+<<<<<<< HEAD
+</div>
+</template>
+<style >
+@import url('https://fonts.cdnfonts.com/css/rye');
+.words{
+  font-size: 60px;
+  width:50%;
+  float:right;
+  margin-top: 300px;
+text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #000000 0%,
+    #737373 20%,
+    #00bf63 76%,
+    #ffffff 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  font-family: 'Doulos SIL Compact', sans-serif;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+=======
   </template>
   <style scoped>
   @import url('https://fonts.cdnfonts.com/css/rye');
@@ -105,6 +138,7 @@
     -webkit-text-fill-color: transparent;
     animation: textclip 2s linear infinite;
     font-family: 'Doulos SIL Compact', sans-serif;
+>>>>>>> 126c192ae95ecb39a752fbad0e6ff8f6065639ad
   }
   @keyframes textclip {
     to {

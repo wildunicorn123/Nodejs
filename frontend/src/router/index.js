@@ -27,6 +27,13 @@ const routes = [
     name: 'admin',
     component: () => import( '../views/AdminView.vue')
   }
+,
+{
+  
+    path: '/product/:prodID',
+    name: 'singleProd',
+    component: () => import('../views/singleprodView.vue')
+}
 ]
 
 const router = createRouter({
