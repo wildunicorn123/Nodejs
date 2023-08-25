@@ -1,7 +1,8 @@
 <template>
   <NavBarcomp/>
   <router-view/>
-  <Footercomp/>
+<Footercomp/>
+
 </template>
 <script>
 import NavBarcomp from "./components/NavBarComp.vue";
@@ -21,7 +22,7 @@ export default{
   text-align: center;
   color: #2c3e50;
   background: rgb(0,0,0)!important;
-background: linear-gradient(31deg, rgba(0,0,0,0.9921218487394958) 5%, rgba(115,115,115,1) 100%)!important;
+ background: linear-gradient(31deg, rgba(0,0,0,0.9921218487394958) 5%, rgba(115,115,115,1) 100%)!important; 
 }
 
 nav {

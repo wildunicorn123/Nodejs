@@ -80,7 +80,7 @@ GreenFlow isn't just a store; it's a symbol of growth, adaptability, and hope. J
   </div>
 </div>
 </template>
-<style>
+<style >
 @import url('https://fonts.cdnfonts.com/css/rye');
 .words{
   font-size: 60px;
